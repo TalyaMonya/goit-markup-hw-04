@@ -260,35 +260,14 @@ body {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.advantages-item::before {
-  display: block;
-  background-color: var(--secondary-brand-color);
-  content: '';
+.advantages-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
   height: 112px;
-  border-radius: 4px;
-  background-size: 64px 64px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-antenna::before {
-  background-image: url(../images/main/antenna.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../images/main/clock.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../images/main/diagram.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../images/main/astronaut.svg);
-}
-
-.advantages-item > .secondary-title {
-  margin-top: 8px;
+  background-color: var(--secondary-brand-color);
+  margin-bottom: 8px;
 }
 
 .advantages-text {
