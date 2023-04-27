@@ -409,6 +409,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-brand-color);
   width: 264px;
+  margin-top: 16px;
 }
 
 .social-title {
